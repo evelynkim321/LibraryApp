@@ -4,6 +4,7 @@ const express = require('express');
 const connectDB = require('./config/db');
 const bookRoutes = require('./routes/bookRoutes');
 const authRoutes = require('./routes/authRoutes'); 
+const bodyParser = require('body-parser');
 
 
 const app = express();
